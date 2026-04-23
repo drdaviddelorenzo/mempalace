@@ -1,8 +1,48 @@
+# Python packaging
 *.egg-info/
 dist/
 build/
+MANIFEST
+*.egg
+
+# Bytecode
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Testing & coverage
 .pytest_cache/
-mempal.yaml
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pytype/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+
+# Project-specific
+mempal.yaml
